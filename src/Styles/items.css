@@ -1,0 +1,47 @@
+.containers { 
+    height: 200px;
+    width: 100%;
+    position: relative;
+    background-image: url("../Images/crumbs.jpg");
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.crumbs{
+    color: white;
+}
+
+@media(min-width:320px){
+  .item-name{
+    font-size: 21px;
+    font-weight: bold;
+  }
+  .item-price{
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .item-desc{
+    font-size: 16px;
+  }
+}
+
+@media(min-width:768px){
+  .item-name{
+    font-size: 27px;
+    font-weight: bold;
+  }
+  .item-price{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .item-desc{
+    font-size: 18px;
+  }
+}

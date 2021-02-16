@@ -1,0 +1,19 @@
+.addToCart:hover{
+    color: #E75480;
+}
+
+.addToLiked:hover{
+    color: red;
+}
+
+.bar{
+    opacity: 0%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bar:hover{
+    opacity: 100%;
+
+}

@@ -1,0 +1,13 @@
+.social{
+    background-color: #DCDCDC;
+}
+.social:hover{
+    background-color: #E75480;
+    color: white;
+}
+.footer-items{
+    padding-top: 10px;
+}
+.footer-items:hover{
+    color: #E75480;
+}
